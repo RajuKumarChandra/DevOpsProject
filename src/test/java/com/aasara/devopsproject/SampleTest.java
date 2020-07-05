@@ -6,17 +6,18 @@
 
 package com.aasara.devopsproject;
 
+import junit.framework.TestCase;
+
 /**
  *
  * @author kumara1
  */
-public class Sample {
 
-    public static void main(String [] args) {
-        System.out.println("Hello World !");
-    }
-    
-    public static int add(int firstNum, int secondNum){
-        return firstNum + secondNum;
+
+public class SampleTest extends TestCase {
+
+   
+    public void testAdd(){
+        assertEquals(9, Sample.add(5, 4));
     }
 }
