@@ -13,7 +13,7 @@ package com.aasara.devopsproject;
 public class Sample {
 
     public static void main(String [] args) {
-        System.out.println("Hello World !");
+        System.out.println("Hello Sonar !");
     }
     
     public static int add(int firstNum, int secondNum){
