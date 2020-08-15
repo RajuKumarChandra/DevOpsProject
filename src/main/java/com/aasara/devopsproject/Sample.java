@@ -13,7 +13,7 @@ package com.aasara.devopsproject;
 public class Sample {
 
     public static void main(String [] args) {
-        System.out.println("Hello Sonar !");
+        System.out.println("Hello Sonar changing in github triggering build in jenkins!");
     }
     
     public static int add(int firstNum, int secondNum){
